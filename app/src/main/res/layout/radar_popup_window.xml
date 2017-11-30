@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_radar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#72C33C"
+    >
+
+
+    <ImageView
+        android:id="@+id/ivCirle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       />
+
+
+    <ImageView
+        android:id="@+id/ivWave"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/radar_wave"/>
+
+    <ImageView
+        android:id="@+id/ivRadarScan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/radar_scan"/>
+
+
+    <FrameLayout
+        android:id="@+id/match_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/blank"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</FrameLayout>

@@ -1,0 +1,1 @@
+include ':app', ':BaseLibrary-release', ':UserLibrary-release', ':VideoPlayLibrary-release'
