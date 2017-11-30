@@ -65,7 +65,7 @@ public class DBManager {
      */
     public void getAllUserInfo() {
         if (!NetUtils.isNetworkAvailable(UIUtils.getContext())) {
-            return;
+             return;
         }
         fetchFriends();
         fetchGroups();
